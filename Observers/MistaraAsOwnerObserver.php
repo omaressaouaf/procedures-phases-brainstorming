@@ -1,6 +1,6 @@
 <?php
 
-class MistaraObserver extends PhaseOwnerObserver
+class MistaraAsOwnerObserver extends PhaseOwnerObserver
 {
     /**
      * @param Mistara $model

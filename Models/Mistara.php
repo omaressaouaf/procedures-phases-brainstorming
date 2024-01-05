@@ -14,12 +14,12 @@ class Mistara implements PhaseOwner, PhaseCauser
 
     public function phaseOwnerObserver(): PhaseOwnerObserver
     {
-        return new MistaraObserver();
+        return new MistaraAsOwnerObserver();
     }
 
     public function phaseCauserObserver(): PhaseCauserObserver
     {
-        return new NextMasatirsObserver();
+        return new MistaraAsCauserObserver();
     }
 
     /**

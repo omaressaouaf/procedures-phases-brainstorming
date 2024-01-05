@@ -2,7 +2,7 @@
 
 abstract class PhaseCauserObserver
 {
-    public function addPhase($event, PhaseOwner $phaseOwner, ?PhaseCauser $phaseCauser = null, ?array $data = null): void
+    public function addPhase($event, PhaseOwner $phaseOwner, PhaseCauser $phaseCauser, ?array $data = null): void
     {
         // Add the phase
     }
