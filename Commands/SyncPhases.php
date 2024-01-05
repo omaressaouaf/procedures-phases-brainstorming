@@ -49,10 +49,10 @@ class SyncPhases
  *  Audience has been established
  *  🕒
  *  🕒
- *  Next mistara has been established
+ *  Next mistara has been deposit
  *  🕒
  *  🕒
- *  Second next mistara has been established (If you choose to record with the NextMasatirsObserver - take a look at it)
+ *  Second next mistara has been deposit (If you choose to record recursively with the NextMasatirsObserver - take a look at it)
  */
 
 /**
@@ -64,7 +64,7 @@ class SyncPhases
  *  Audience has been established
  *  🕒
  *  🕒
- *  Next mistara has been established
+ *  Next mistara has been deposit
  */
 
 
