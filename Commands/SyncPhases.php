@@ -11,7 +11,7 @@ class SyncPhases
         }
 
         /**
-         * Start by deleing all phases of the mistara to start the timeline from scratch, thus we need to execute the onCreate method for the phase
+         * Start by deleing all phases of the mistara to start the timeline from scratch, then we need to execute the onCreate method for the phase
          * owner observer and for each phase causers observers
          */
 
