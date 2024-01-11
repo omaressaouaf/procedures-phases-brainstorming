@@ -31,8 +31,8 @@ class SyncPhases
         /**
          * @var Mistara
          */
-        foreach ($mistara->getNextMasatirs() as $mistara) {
-            $mistara->phaseCauserObserver()->onCreate($mistara);
+        foreach ($mistara->getNextMasatirs() as $nextMistara) {
+            $nextMistara->phaseCauserObserver()->scopeOnlyTo($nextMistara)->onCreate($mistara);
         }
     }
 }

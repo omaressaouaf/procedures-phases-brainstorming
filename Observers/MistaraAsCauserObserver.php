@@ -11,5 +11,7 @@ class MistaraAsCauserObserver extends PhaseCauserObserver
             $this->addPhase('next-mistara-has-been-deposit', $model->getPreviousMistara(), $model);
             // You can go beyond to implement a recursive function that adds this phase to even further previous procedures
         }
+
+        // Maybe add other phases to other procedures
     }
 }

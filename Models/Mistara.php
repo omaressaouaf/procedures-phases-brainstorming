@@ -12,9 +12,19 @@ class Mistara implements PhaseOwner, PhaseCauser
         return new Mistara();
     }
 
+    public function getId(): string
+    {
+        return "id";
+    }
+
     public function phaseOwnerObserver(): PhaseOwnerObserver
     {
         return new MistaraAsOwnerObserver();
+    }
+
+    public function phaseOwnerIdentifier(): string
+    {
+        return $this->getId();
     }
 
     public function phaseCauserObserver(): PhaseCauserObserver
